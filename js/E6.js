@@ -5,7 +5,7 @@ console.log(fullName);
 
 
 
-//Arrow function
+//Arrow function 
 
 const add=(num1,num2)=>num1+num2; // 2+ peramiter
 const sqr=x=>x*x;   // 1 peramiter
@@ -20,3 +20,15 @@ const text=()=>console.log("Amar sonar Bangla"); // no peramiter
  const obj={name:"Rubel",class: 12, roll:10, mark:90}
  const {roll}=obj;
  console.log(roll);
+
+ // dot(.) and Braket{} notation
+
+ const student={1:1 ,name:"hasan", age:29 ,roll:20 }
+ const student1=student.name ;// dot(.) notation
+ const student2=student["1"];
+ console.log(student1);
+ console.log(student2);
+
+
+ 
+ 
