@@ -1,2 +1,2 @@
-const test=60;
-console.log(test);
+let name="zia"
+console.log(name);

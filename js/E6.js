@@ -29,6 +29,14 @@ const text=()=>console.log("Amar sonar Bangla"); // no peramiter
  console.log(student1);
  console.log(student2);
 
+ // map / filter/ find
+
+ const numbers2=[45,30,40,50,70,80,20];
+ const doubleIt=numbers2.map(x => x*2);
+ console.log(doubleIt);
 
  
+
+
+
  
