@@ -31,12 +31,22 @@ const text=()=>console.log("Amar sonar Bangla"); // no peramiter
 
  // map / filter/ find
 
- const numbers2=[45,30,40,50,70,80,20];
- const doubleIt=numbers2.map(x => x*2);
+ const numbers2=[45,30,40,50,70,80,20,33];
+ const friend=["sohan", "Rubel","lotif","Sumon","Arif","Rakibul"];
+ const doubleIt=numbers2.map(x => x*2);    // map
  console.log(doubleIt);
 
- 
+ const friendLenth= friend.map(name=>name.length); // Map
+ console.log(friendLenth);
+
+ const evenNumber=numbers2.filter(num => num % 2 ==0);    // filter
+ console.log(evenNumber);
+
+ const fourletter=friend.filter(word => word.length==4);  // filter
+ console.log(fourletter);
 
 
 
+const firstEvenNumber= numbers2.find(num=> num%2==0); // find
+console.log(firstEvenNumber);
  
