@@ -49,4 +49,8 @@ const text=()=>console.log("Amar sonar Bangla"); // no peramiter
 
 const firstEvenNumber= numbers2.find(num=> num%2==0); // find
 console.log(firstEvenNumber);
+
+
+
+
  
