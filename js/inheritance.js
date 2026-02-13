@@ -19,3 +19,14 @@ class Dog extends Animal{
 const dog1= new Dog("dogy",23)
 dog1.eat()
 console.log(dog1);
+
+class Cat extends Animal{
+    constructor(name, age, type){   // inherited name and age from Animal class
+        super(name,age)
+        this.type= type;
+    }
+}
+const cat1=new Cat("pussy",4,physian)
+cat1.eat();
+console.log(cat1);
+
