@@ -6,5 +6,7 @@ class Vecle{
         this.price= priceName;
     }
 
-    
+    text(){
+        console.log("cd")
+    }
 }

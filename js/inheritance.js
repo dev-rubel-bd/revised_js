@@ -30,3 +30,7 @@ const cat1=new Cat("pussy",4,physian)
 cat1.eat();
 console.log(cat1);
 
+
+
+jhamela
+
