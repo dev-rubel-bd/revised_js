@@ -19,3 +19,22 @@ const loadPost=()=>{
 //      }
 // }
 
+
+// Create a function 
+const displayPost=(posts) => {
+    // Get the container
+    const postContainer=document.getElementById("post-container");
+    // postContainer.innerHTML=""; 
+    for(let post of posts){
+        // creat HTML element 
+        const postCard=document.createElement("div")
+        postCard.innerHTML=` <div class="post-card">
+            <h2>${post.title}</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde itaque soluta earum quaerat in aperiam ratione, voluptates, accusamus quae aut vero voluptatem nam vel adipisci illum repellendus fuga! Tenetur?</p>
+
+        </div>`
+    // add post card
+    postContainer.append(postCard);
+    }
+
+}
