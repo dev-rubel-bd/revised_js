@@ -5,12 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>prctice Javascript</title>
 </head>
+<style>
+    .postContainer{
+        max-width: 1160px;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+
+    }
+    .post-card{
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px gray;
+
+    }
+</style>
 <body>
     <button onclick="loadData()">Load Data</button>
     <button onclick="loadPost()">Load POst</button>
 
+    <div class="postContainer">
+        <div class="post-card">
+            <h2>Sample Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde itaque soluta earum quaerat in aperiam ratione, voluptates, accusamus quae aut vero voluptatem nam vel adipisci illum repellendus fuga! Tenetur?</p>
 
-    <script src="js/json.js"></script>
+        </div>
+    </div>
+
+
+    
+    <script src="js/post.js"></script>
     
 </body>
 </html>
